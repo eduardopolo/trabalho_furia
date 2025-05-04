@@ -83,7 +83,7 @@ const handleLogin = (event) => {
     login.style.display = "none"
     chat.style.display = "flex"
 
-    websocket = new WebSocket("ws://trabalho-furia-fans-7da57t2uz-eduardopolos-projects.vercel.app")
+    websocket = new WebSocket("ws://localhost:8080")
     websocket.onmessage = processMessage
 }
 
