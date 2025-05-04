@@ -57,6 +57,7 @@ node src/server.js
 
 Pode ativa-lo pelo console com:
 
+cd backend 
 npm run dev
 
 O comando irá rodar automaticamente o servidor, estabelecendo uma conexão para você testar
